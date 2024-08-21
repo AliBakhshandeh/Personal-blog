@@ -1,0 +1,36 @@
+.listDiscAfter {
+  li {
+    margin-left: 40px;
+    list-style-type: none;
+    position: relative;
+
+    &::after {
+      content: "";
+      position: absolute;
+      left: 100%;
+      margin-left: 1rem;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 0.3em;
+      height: 0.3em;
+      border-radius: 50%;
+      background-color: #333;
+    }
+
+    &:last-child::after {
+      content: none;
+    }
+
+    @media (max-width: 1040px) {
+      margin-left: unset;
+      & {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+      }
+      &::after {
+        content: none;
+      }
+    }
+  }
+}
