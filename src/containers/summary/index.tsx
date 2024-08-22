@@ -4,7 +4,7 @@ interface IProps {
   lang: Locale;
 }
 
-const Summary = async ({ lang }: IProps) => {
+const SummaryContainer = async ({ lang }: IProps) => {
   const t = await getDictionary(lang);
   return (
     <div className="summary_container">
@@ -12,4 +12,4 @@ const Summary = async ({ lang }: IProps) => {
     </div>
   );
 };
-export default Summary;
+export default SummaryContainer;

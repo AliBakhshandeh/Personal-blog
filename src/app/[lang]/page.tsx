@@ -1,19 +1,29 @@
+// components
 import SectionDevider from "@/components/sectionDevider";
-import Header from "@/containers/header";
-import Summary from "@/containers/summary";
+// containers
+import ExperienceContainer from "@/containers/experience";
+import HeaderContainer from "@/containers/header";
+import SkillsContainer from "@/containers/skills";
+import SummaryContainer from "@/containers/summary";
 
 export default async function Home({ params }: any) {
   return (
-    <div className="home_page mx-auto mt-[30px] px-5 md:px-0 container">
-      <Header lang={params.lang} />
+    <div className="home_page mx-auto my-[30px] px-5 md:px-0 container">
+      <HeaderContainer lang={params.lang} />
 
       <SectionDevider content={"Summary"} />
 
-      <Summary lang={params.lang} />
+      <SummaryContainer lang={params.lang} />
 
       <SectionDevider content={"Skills"} />
+
+      <SkillsContainer lang={params.lang} />
+
       <SectionDevider content={"Experience"} />
-      <SectionDevider content={"Blog"} />
+
+      <ExperienceContainer lang={params.lang} />
+
+      {/* <SectionDevider content={"Blog"} /> */}
     </div>
   );
 }

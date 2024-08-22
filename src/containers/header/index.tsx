@@ -1,13 +1,12 @@
+import { getDictionary, Locale } from "@/app/dictionaries";
 import Link from "next/link";
 import styles from "./header.module.scss";
-import statics from "@/utils/static/static.json";
-import { getDictionary, Locale } from "@/app/dictionaries";
 
 interface IProps {
   lang: Locale;
 }
 
-const Header = async ({ lang }: IProps) => {
+const HeaderContainer = async ({ lang }: IProps) => {
   const t = await getDictionary(lang);
   return (
     <header className="header_container">
@@ -22,22 +21,20 @@ const Header = async ({ lang }: IProps) => {
           <ul
             className={`${styles.listDiscAfter} flex flex-wrap justify-center`}
           >
-            <li>{statics.info.phone}</li>
+            <li>{t.user_info.phone}</li>
             <li>
-              <Link href={`mailto:${statics.info.email}`}>
-                {statics.info.email}
+              <Link href={`mailto:${t.user_info.email}`}>
+                {t.user_info.email}
               </Link>
             </li>
             <li>
-              <Link href={`${statics.info.linkdin}`}>
-                {statics.info.linkdin}
-              </Link>
+              <Link href={`${t.user_info.linkdin}`}>{t.user_info.linkdin}</Link>
             </li>
-            <li>{statics.info.location}</li>
+            <li>{t.user_info.location}</li>
           </ul>
         </div>
       </div>
     </header>
   );
 };
-export default Header;
+export default HeaderContainer;

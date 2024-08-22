@@ -1,9 +1,110 @@
 {
   "user_info": {
     "full_name": "ALI BAKHSHANDEH ARDESTANI",
-    "position": "Frontend Engineer"
+    "position": "Frontend Engineer",
+    "phone": "+989364870704",
+    "email": "alibakhshandehardestani@gmail.com",
+    "linkdin": "https://www.linkedin.com/in/ali-bakhshandeh-ardestani/",
+    "github": "",
+    "location": "Tehran, Iran"
   },
   "summary": {
     "content": "Experienced Frontend Developer with over 6 years of experience, proficient in React, Redux, Material-UI, JavaScript, and jQuery. I am an expert in creating high-quality user interfaces and web applications, translating design concepts into interactive digital experiences. I am eager to stay up-to-date on industry trends to offer innovative solutions and am interested in learning about product development to discover ways to address challenges."
-  }
+  },
+  "skills": {
+    "front": {
+      "label": "Front-end",
+      "items": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "TypeScript",
+        "SCSS",
+        "Bootstrap",
+        "Styled-components",
+        "Tailwind CSS",
+        "jQuery",
+        "ReactJS",
+        "PWA",
+        "Next.js",
+        "Redux",
+        "Zustand",
+        "React Query",
+        "workbox",
+        "Agile",
+        "Scrum"
+      ]
+    },
+    "back": {
+      "label": "Back-end",
+      "items": []
+    },
+    "others": {
+      "label": "Others",
+      "items": []
+    },
+    "familiar": {
+      "label": "Familiar",
+      "items": [
+        "nodeJs",
+        "nestJs",
+        "MongoDB",
+        "Express",
+        "mysql",
+        "docker",
+        "Jira Rest Api"
+      ]
+    }
+  },
+  "experiences": [
+    {
+      "company": "PodroCo",
+      "role": "Frontend Developer",
+      "description": "",
+      "location": "Tehran, Iran",
+      "date": "2024 - Present",
+      "bullets": [
+        "Implemented <strong>advanced caching strategies</strong> and code splitting techniques and improving the overall performance score of the website on <strong>Google PageSpeed Insights</strong>.",
+        "Optimized the social e-commerce platform, resulting in a 40% reduction in page load times and a 25% increase in userengagement.",
+        "Collaborated with the back-end team to optimize API calls and implement efficient data fetching strategies, resulting in a 50% decrease in server response times."
+      ]
+    },
+    {
+      "company": "Yarhis",
+      "role": "Front End Developer",
+      "description": "",
+      "location": "Tehran, Iran",
+      "date": "2019 - 2024",
+      "bullets": [
+        "Developed a component that utilizes a configuration object to dynamically display information in the data section, allowing for personalized customization. This component significantly enhanced front-end development efficiency and eliminated the redundancy of <strong>JSX</strong> code.",
+        "Implemented the architecture of a super web application using Material-UI for a <strong>Progressive Web App (PWA)</strong>. This application incorporates features such as offline functionality, <strong>service worker</strong> integration, and installation prompts to enhance the user experience.",
+        "Implemented the reception section for attached files, managed by the backend, where receiving boxes are presented on the frontend. The backend configuration allows specifying acceptable file types and whether users can upload multiple files or just one. This initiative significantly accelerated the development process for handling attached files.",
+        "Developed a structured system for healthcare service management using React, rewriting the requirements from a previous <strong>jQuery</strong> project in <strong>TypeScript</strong> to enhance type safety and maintainability.",
+        "Created an infrastructure application using <strong>NestJS</strong> technology for efficiently managing vendor requests, ensuring streamlined communication and organization within the system."
+      ]
+    },
+    {
+      "company": "Ariana labs",
+      "role": "Front End Developer",
+      "description": "",
+      "location": "Tehran, Iran",
+      "date": "2018 - 2019",
+      "bullets": [
+        "Architected web applications using <strong>JavaScript</strong>, <strong>React</strong>, <strong>Redux</strong>, <strong>Webpack</strong>, <strong>MUI</strong>, and <strong>Styled-Components</strong>, delivering scalable and maintainable codebases.",
+        "Implemented the company's <strong>custom form builder</strong> on the front end, configured with an object for simplified form creation. This form builder facilitated managing forms in different tabs and data entries on the front end, contributing to bug management, increased efficiency, and overall project organization.",
+        "Implemented a <strong>map</strong> to display the nearest healthcare centers using the <strong>Leaflet</strong> library."
+      ]
+    },
+    {
+      "company": "ISP (Idea System Processor)",
+      "role": "Junior Front End Developer",
+      "description": "",
+      "location": "Tehran, Iran",
+      "date": "2017 - 2018",
+      "bullets": [
+        "Developed interfaces and web applications using the Twig template engine of the Yii2 framework, <strong>JavaScript</strong>, <strong>Bootstrap</strong>, and <strong>jQuery</strong>.",
+        "Implementation of pages with CSS animations for user-friendly interfaces."
+      ]
+    }
+  ]
 }
